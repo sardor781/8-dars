@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open sans;
+}
+
+header {
+    background-image: url('image\ copy\ 4.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 875px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header .container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-top: 30px;
+}
+
+header .container nav {
+    display: flex;
+    gap: 34px;
+}
+
+header .container nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+header .container nav a:hover {
+    color: orange;
+}
+
+.shop {
+    display: flex;
+    gap: 24px;
+}
+
+.bikes {
+    width: 679px;
+    margin-top: 60px;
+}
+
+.bikes h2 {
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 123%;
+    color: white;
+}
+
+.bikes p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%;
+    color: white;
+    margin-top: 50px;
+}
+
+.bikes button {
+    width: 180px;
+    height: 52px;
+    background: rgba(245, 117, 32, 1);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: 40px;
+}
+
+.velilar {
+    width: 350px;
+    height: 462px;
+    background: black;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.hero {
+    background-color: grey;
+    padding-bottom: 50px;
+}
+
+.hero h1 {
+    text-align: center;
+    margin-top: 59px;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 123%;
+
+}
+
+.velilar h4 {
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 163%;
+    color: white;
+    margin-top: 24px;
+    margin-left: 27px;
+}
+
+.velilar p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    color: white;
+    margin-top: 20px;
+}
+
+.boshi {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.boshi {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.velilar:hover {
+    background-color: rgba(245, 117, 32, 1);
+
+}
+
+.velilar:hover h4 {
+    color: black;
+}
+
+.velilar:hover p {
+    color: black;
+}
+
+.hero2 {
+    background-color: rgba(245, 117, 32, 1);
+    height: 636px;
+}
+
+.hero2 .container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-top: 52px;
+}
+
+.svyas {
+    width: 610px;
+}
+
+.svyas h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 123%;
+    color: white;
+}
+
+.svyas form {
+    width: 610px;
+    margin-top: 80px;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.svyas form input:nth-child(1) {
+    width: 302px;
+    height: 46px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    padding-left: 16px;
+    color: rgba(179, 179, 179, 1);
+}
+
+.svyas form input:nth-child(2) {
+    width: 292px;
+    height: 46px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    padding-left: 16px;
+    color: rgba(179, 179, 179, 1);
+}
+
+.svyas form input:nth-child(3) {
+    width: 302px;
+    height: 46px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    padding-left: 16px;
+    color: rgba(179, 179, 179, 1);
+}
+
+.svyas form input:nth-child(4) {
+    width: 292px;
+    height: 46px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    padding-left: 16px;
+    color: rgba(179, 179, 179, 1);
+}
+
+.svyas form textarea {
+    width: 608px;
+    height: 154px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    padding-left: 16px;
+    color: rgba(179, 179, 179, 1);
+    padding-left: 16px;
+    padding-top: 10px;
+}
+
+.svyas form button {
+    width: 608px;
+    height: 52px;
+    color: rgba(245, 117, 32, 1);
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 123%;
+}
+
+.hero3 {
+    height: 500px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 92px;
+    padding-bottom: 150px;
+}
+
+footer .container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
